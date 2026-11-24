@@ -1,0 +1,29 @@
+# Environment variables & API keys
+.env
+*.env
+!.env.example
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+fake_news_env/
+
+# IDEs & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Large data files and compiled model binaries
+data/*.csv
+models/*.joblib
+models/*.pkl
